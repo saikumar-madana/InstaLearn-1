@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InstaLearn</string>
+    <string name="one">next</string>
+    <string-array name="spinner">
+        <item>one</item>
+        <item>two</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_picture">Select a picture</string>
+</resources>

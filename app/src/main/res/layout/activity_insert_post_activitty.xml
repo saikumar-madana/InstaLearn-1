@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/insert_bg"
+    android:layout_height="match_parent"
+    tools:context=".Activities.InsertPostActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/insert_post_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="32dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" >
+
+        <ImageView
+            android:id="@+id/insert_post_image"
+            android:scaleType="centerCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:id="@+id/insert_post_caption"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/insert_post_container"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginHorizontal="32dp"
+        android:layout_width="0dp"
+        android:padding="16dp"
+        android:hint="Add Caption"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/insert_post_btn"
+        android:layout_width="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="25dp"
+        android:text="Post"
+        android:backgroundTint="@color/app_color"
+        android:layout_marginHorizontal="35dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

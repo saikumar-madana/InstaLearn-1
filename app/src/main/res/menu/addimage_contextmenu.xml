@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/post_camera"
+        android:title="Open Camera"
+        android:icon="@drawable/ic_camera"
+        />
+    <item
+        android:id="@+id/post_gallery"
+        android:title="Open Gallery"
+        android:icon="@drawable/ic_gallery"
+        />
+
+</menu>
